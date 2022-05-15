@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+     <style>
+body{
+    background-color: rgb(255, 255, 232);
+    font-style: oblique;
+    font-family: Arial;
+
+}
+article p:first-child {
+    font-size: 120%;
+    font-weight: bold;
+    color:rgb(43, 226, 110);
+}   
+article p::first-line {
+    color:rgb(27, 58, 180);
+}   
+article p:last-child{
+    font-size: 100%;
+    font-weight: lighter;
+    color:rgb(141, 35, 137);
+}
+a {
+  margin: 40px;
+  font-family: serif;
+  background-color: rgb(255, 225, 125);
+  border: 2px solid rgb(184, 93, 37);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(55, 52, 200);
+}
+a:hover { 
+    text-decoration: underline; 
+    background-color: rgb(228, 144, 119);  
+   } 
+a:visited {
+	color: rgb(150, 78, 78);
+}
+blockquote::before {
+	content: "«";
+}
+
+blockquote::after {
+	content: "»";
+}
+
+blockquote::selection {
+	color: #C8F7C5;
+	background-color: #1E824C;
+}
+blockquote{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+blockquote {
+    width: 60%;
+margin: 0;
+background: #87efff;
+color: #471a5b;
+padding: 30px 30px 30px 80px;
+position: relative;
+font-family: 'Lato', sans-serif;
+}blockquote :before {
+content: "\201C";
+font-family: serif;
+position: absolute;
+font-size: 60px;
+left: -50px;
+top: 10px;
+line-height: 0;
+}
+blockquote :after {
+content: "\201D";
+font-family: serif;
+position: absolute;
+font-size: 60px;
+line-height: 0;
+}
+blockquote p {
+font-size: 24px;
+letter-spacing: .05em;
+position: relative;
+z-index: 3;
+}
+blockquote cite {
+font-style: normal;
+font-weight: 300;
+}
+    </style>
+</head>
+<body>
+   <center>
+    <article style="width: 50%;">
+        <p>
+            Фондовый рынок — это рынок ценных бумаг: акций, облигаций, инвестиционных паев. Заключать сделки по покупке и 
+            продаже таких бумаг проще всего на специально организованной торговой площадке — фондовой бирже. Она дает возможность
+             надежно и быстро покупать бумаги и продавать их по справедливой, то есть рыночной цене.
+            </p>
+    <p>
+            Во Всемирную федерацию бирж входят 63 фондовые биржи.  <br/>
+            Участвовать в торгах на бирже могут физические 
+            или юридические лица, либо те и другие.  <br/>
+            Большинством бирж рассчитываются фондовые индексы,
+             вычисляемые на основе цен определённой группы ценных бумаг.
+    </p>
+    </article>
+    <article> 
+        Сейчас торги большей частью проходят в
+        электронном виде с использованием специализированных программ,
+        многие биржи отказались от торговых залов. Брокеры в своих
+        интересах или интересах клиентов выставляют в торговые системы
+        заявки на покупку или продажу биржевых товаров. Эти заявки
+        удовлетворяются встречными заявками других торговцев.
+
+</article>
+<blockquote>
+    Биржа предлагает значительно больше возможностей потерять деньги, чем их заработать.
+    </blockquote>
+    <br/>
+    <a class="link" href="author.html">Про автора </a>
+ </center>
+</body>
+</html>

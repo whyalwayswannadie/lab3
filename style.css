@@ -1,0 +1,66 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.task {
+  display: block;
+  color: white;
+  /* width: 300px; */
+}
+.page {
+  padding: 30px;
+  text-align: center;
+  background: rgb(255, 216, 100);
+}
+.image {
+  margin: 30px; 
+padding: 10px;
+}
+.link {
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  background-color: rgb(255, 142, 37);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.link:hover { 
+    text-decoration: underline; 
+    background-color: rgb(232, 102, 66);  
+   } 
+.text{
+  font-style: oblique;
+  font-family: Arial;
+  color: rgb(255, 255, 255); 
+}
+.text2{
+  font-size: large;
+   font-weight: bold;
+  color: rgb(35, 24, 47); 
+}
+.task2{
+  font-size: large;
+   font-weight: bold;
+  color: rgb(35, 24, 47); 
+  border: 3mm outset rgb(221, 221, 33);
+  background-color: cornsilk;
+}
+.additionally{
+  border: 3mm inset rgb(69, 184, 37);
+  font-size: 20px;
+  width: 50%;
+  color: rgb(8, 6, 6);
+   background-color: rgb(171, 216, 217);
+}
+.task3{
+  margin: 40px;
+  font-family: serif;
+  background-color: rgb(255, 225, 125);
+  border: 1mm outset rgb(184, 120, 37);
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(10, 9, 58);
+}
